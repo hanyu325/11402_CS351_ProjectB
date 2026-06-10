@@ -16,3 +16,7 @@ jobs:
 
     - name: Build
       run: cmake --build build
+
+    - name: Run Test
+      run: |
+        ./build/QueryEngine < tests/test_input.txt

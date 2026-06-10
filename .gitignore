@@ -12,7 +12,8 @@ Makefile
 
 # Executables
 *.exe
-*.out
-
-# macOS
-.DS_Store
+*.obj
+*.pdb
+*.ilk
+*.user
+*.log

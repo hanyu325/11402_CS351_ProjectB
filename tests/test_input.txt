@@ -1,0 +1,6 @@
+LOAD input
+SELECT * FROM input
+SELECT name,age FROM input
+SELECT address FROM input
+SELECT name FROM student
+EXIT
